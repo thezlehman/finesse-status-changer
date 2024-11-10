@@ -1,11 +1,10 @@
 # Cisco Finesse Status Changer
 
-This project provides a Python script to log into Cisco Finesse, change the agent status, and maintain the session using cookies. It includes a GUI for selecting the desired status and prompts for login credentials if they are not saved.
+This project provides a Python script to log into Cisco Finesse, change the agent status. It includes a GUI for selecting the desired status and prompts for login credentials if they are not saved.
 
 ## Features
 
 - Logs into Cisco Finesse and changes agent status.
-- Saves and loads cookies to maintain session.
 - Encrypts and stores login credentials in a `.env` file.
 - Provides a GUI for selecting the agent status.
 - Prompts for login credentials if not saved.
